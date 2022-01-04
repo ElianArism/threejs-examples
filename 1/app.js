@@ -17,7 +17,8 @@ document.body.appendChild(renderer.domElement)
 
 // add geometry to display in Scene
 const geometry = new THREE.BoxGeometry()
-const material = new THREE.MeshBasicMaterial({ color: 0xa83432, wireframe: true })
+// const material = new THREE.MeshBasicMaterial({ color: 0xa83432, wireframe: true })
+const material = new THREE.MeshBasicMaterial({ color: 0xa83432 })
 const cube = new THREE.Mesh(geometry, material)
 
 // add geometry to Scene
